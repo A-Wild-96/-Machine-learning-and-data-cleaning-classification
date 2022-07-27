@@ -1,8 +1,8 @@
-# -Machine-learning-and-data-cleaning-classification
+# Machine-learning-and-data-cleaning-classification
 
-##Chronic Kidney Disease
+## Chronic Kidney Disease
 
-###Abstract
+### Abstract
 Supervised machine learning algorithms (logistic regression, k nearest neighbour and random forests available in python package sklearn) are used to predict chronic kidney disease (CKD) based off a large list of features. The dataset was cleaned - replaced erroneous values, fixed datatypes and addressed missing entries. Three different methods of missing entry replacement was performed. On average it is found that logistic regression and k nearest neighbour algorithms perform best by retaining as many features as possible, replacing missing entries with the mean the feature. Random forest algorithms showed no preference on method of data replacement. 
 
 Dataset was obtained from kaggle.com (https://www.kaggle.com/datasets/mansoordaku/ckdisease).
