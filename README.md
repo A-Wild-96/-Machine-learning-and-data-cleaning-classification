@@ -3,6 +3,8 @@ Numeric features. Function conv_check_float does not convert strings to floats. 
 
 Machine learning - change i=1,2,3 to i=0,1,2
 
+Change abstract and concl. to in general prefer retaining features. As dataset 1 and 2 do not perform very differently in log. reg. and KNN. 
+
 # Machine-learning-and-data-cleaning-classification
 
 ## Predicting chronic kidney disease
