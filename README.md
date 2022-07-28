@@ -1,3 +1,6 @@
+#### Errors to fix
+Numeric features. Function conv_check_float does not convert strings to floats. It checks if string is numerical, retains string if true and replaces with nan if false. Then conversion to float is done by astype(float). The reason for this is because astype(float) gets confused by characters such as backslashes, so they need to be filtered beforehand.
+
 # Machine-learning-and-data-cleaning-classification
 
 ## Predicting chronic kidney disease
